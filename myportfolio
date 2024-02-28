@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VARSHINI Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="header">
+            <nav>
+                <img src="plogo.png" alt="varshini" class="image">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Contact">Contact Me</a></li>
+
+                </ul>
+            </nav>
+        <div class="name">
+            <h1>Hi I'M POTHIREDDY VARSHINI <br><span></span></h1>
+            <p>This is my official Portfolio website,<br>here it shows you my details, work Experience and Projects.  </p>
+        </div>
+        <div class="images">
+            <img src="varshi.jpg" class="kailash">
+
+        </div>
+        
+        </div>
+        <div class="about">
+            
+            
+
+
+        <section id="about">
+            <h1><u>ABOUT</u></h1>
+            <p>
+                
+                Hi, this is <b>varshini </b>  I am proactive and dedicated B.Tech graduate in Computer Science & Systems Engineering from Sree Vidyanikethan Engineering College.<br> 
+                <br> <br>I believe that a person should work on developing their skill and learning new things.
+        </section>
+        </div>
+        <div class="projects">
+            <section id="projects">
+                <h1><U>PROJECTS</U></h1>
+                <p>I've made few projects in my free time.</p>
+                <ol>
+                    <li>Voice recognition technology - siri </li>
+                    <li>Electricity Bill Generation in DBMS</li>
+                    <li>Security testing of web apllications</li>
+                </ol>
+            </section>
+        </div>
+        <div class="education">
+            <section id="Education">
+                <h1><U>EDUCATION</U></h1>
+                <ul>
+                   <li><h2>Bachelor's Degree</h2>
+                    College Name: Sree Vidyanikethan Engineering College<br>
+                    Major: B.Tech - Computer Science & Systems Engineering<br>
+                    Year of graduation: 2025</li>
+                </ul>
+                
+            </section>
+        </div>
+        <div class="container">
+            <section id="Contact">
+            <h1><u>CONTACT ME:</u></h1><BR>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <button type="submit">Send</button>
+                <button type="Reset">Reset</button>
+            </form>
+        </section>
+        </div>
+    </body>
+</html>
